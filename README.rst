@@ -8,6 +8,16 @@ A Salt Demo using Vagrant.
 Instructions
 ============
 
+Before running the virtual machine, link an SSH keypair with Redshift
+access to `saltstack/salt/host_ssh`:
+
+.. code-block:: bash
+
+    ln -s ~/.ssh saltstack/salt/host_ssh
+
+
+Do not under any circumstances commit your keys to this repository.
+
 Run the following commands in a terminal. Git, VirtualBox and Vagrant must
 already be installed.
 
